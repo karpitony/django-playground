@@ -1,5 +1,5 @@
 from .base import *
 
-DEBUG = False
+DEBUG = False 
 
 ALLOWED_HOSTS = os.getenv("ALLOWED_HOSTS", "").split(",")

@@ -22,6 +22,3 @@ ALLOWED_HOSTS = [
     get_local_ip(),  # 자동 수집된 로컬 IP
 ]
 
-# 개발 편의를 위해 옵션으로 전체 허용 가능
-if os.getenv("ALLOW_ALL_HOSTS") == "true":
-    ALLOWED_HOSTS = ["*"]
